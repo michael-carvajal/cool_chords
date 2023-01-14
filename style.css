@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    font-size: 3em;
+    display: flex;
+    justify-content: space-between;
+    border: 2px #ff00ff solid;
+
+}
+
+.logo{
+    padding-left: 50%;
+    flex: 1;
+}
+
+
+.sign_in {
+    margin-left: 20px;
+}
+
+.main{
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    
+    border: blue dotted 2px;
+}
+
+.col-lg-6{
+    padding-left: 50%;
+    margin-bottom: 100px;
+    height: 100px;
+}
+
+.form-control, .btn {
+    font-size: 3em;
+}
+
+.main2{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    border: blue dotted 2px;
+}
+
+.alphabet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    height: 2000px;
+    background-color: rgb(57, 28, 84);
+}
+
+.right_side{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alpha_layout{
+    height: auto;
+    list-style-type: none;
+    font-size: 80px;
+    margin: 5px;
+    
+}
+
+.tuner{
+    height: 500px;
+    width: 100%;
+    border: #a40df6ae solid 10px;
+}
+
+.nameList{
+    height: 500px;
+    width: 100%;
+    border: #610588f1 solid 10px;
+}
